@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>032D3F32-2F0D-4833-9730-4176B33D67C6</key>
+		<key>C49F78F3-E126-4FEB-BC40-C18692BCBA05</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>032D3F32-2F0D-4833-9730-4176B33D67C6.xcactivitylog</string>
+			<string>C49F78F3-E126-4FEB-BC40-C18692BCBA05.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run CoordinatorWithMVP</string>
 			<key>timeStartedRecording</key>
-			<real>661785442.31608605</real>
+			<real>661897248.367033</real>
 			<key>timeStoppedRecording</key>
-			<real>661785481.98433697</real>
+			<real>661897293.52523506</real>
 			<key>title</key>
 			<string>Run CoordinatorWithMVP</string>
 			<key>uniqueIdentifier</key>
-			<string>032D3F32-2F0D-4833-9730-4176B33D67C6</string>
+			<string>C49F78F3-E126-4FEB-BC40-C18692BCBA05</string>
 		</dict>
-		<key>1CF66BF0-BCEA-4DFE-BDE9-5BB13090B13B</key>
+		<key>C9B5EB8F-7A60-4F72-B7FC-518103458188</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1CF66BF0-BCEA-4DFE-BDE9-5BB13090B13B.xcactivitylog</string>
+			<string>C9B5EB8F-7A60-4F72-B7FC-518103458188.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run CoordinatorWithMVP</string>
 			<key>timeStartedRecording</key>
-			<real>661783038.29924202</real>
+			<real>661897379.35614097</real>
 			<key>timeStoppedRecording</key>
-			<real>661783268.01217306</real>
+			<real>661897391.14650702</real>
 			<key>title</key>
 			<string>Run CoordinatorWithMVP</string>
 			<key>uniqueIdentifier</key>
-			<string>1CF66BF0-BCEA-4DFE-BDE9-5BB13090B13B</string>
+			<string>C9B5EB8F-7A60-4F72-B7FC-518103458188</string>
 		</dict>
-		<key>5DBC464A-7DF4-44F9-A972-44543F5FC218</key>
+		<key>E1E5D758-9B27-4D1E-BAF1-CA5B44CD5F7B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5DBC464A-7DF4-44F9-A972-44543F5FC218.xcactivitylog</string>
+			<string>E1E5D758-9B27-4D1E-BAF1-CA5B44CD5F7B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,217 +100,13 @@
 			<key>signature</key>
 			<string>Run CoordinatorWithMVP</string>
 			<key>timeStartedRecording</key>
-			<real>661784132.75346303</real>
+			<real>661897293.49146402</real>
 			<key>timeStoppedRecording</key>
-			<real>661784285.00679004</real>
+			<real>661897379.49126005</real>
 			<key>title</key>
 			<string>Run CoordinatorWithMVP</string>
 			<key>uniqueIdentifier</key>
-			<string>5DBC464A-7DF4-44F9-A972-44543F5FC218</string>
-		</dict>
-		<key>6C7E6A04-6655-41E7-988F-22D7D1940C03</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>6C7E6A04-6655-41E7-988F-22D7D1940C03.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CoordinatorWithMVP project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CoordinatorWithMVP</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>timeStartedRecording</key>
-			<real>661784978.581478</real>
-			<key>timeStoppedRecording</key>
-			<real>661785442.16515696</real>
-			<key>title</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>uniqueIdentifier</key>
-			<string>6C7E6A04-6655-41E7-988F-22D7D1940C03</string>
-		</dict>
-		<key>7F795A6F-4329-41F5-A5B8-50B0A5C5880E</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>7F795A6F-4329-41F5-A5B8-50B0A5C5880E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CoordinatorWithMVP project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CoordinatorWithMVP</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>timeStartedRecording</key>
-			<real>661784289.09591305</real>
-			<key>timeStoppedRecording</key>
-			<real>661784361.23995101</real>
-			<key>title</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>uniqueIdentifier</key>
-			<string>7F795A6F-4329-41F5-A5B8-50B0A5C5880E</string>
-		</dict>
-		<key>B7B8796C-C583-4845-9189-F7EE24D9BD8C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B7B8796C-C583-4845-9189-F7EE24D9BD8C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CoordinatorWithMVP project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CoordinatorWithMVP</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>timeStartedRecording</key>
-			<real>661784575.726529</real>
-			<key>timeStoppedRecording</key>
-			<real>661784978.67956603</real>
-			<key>title</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>uniqueIdentifier</key>
-			<string>B7B8796C-C583-4845-9189-F7EE24D9BD8C</string>
-		</dict>
-		<key>F2C4891B-98F0-4731-8804-E27545C6772C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>F2C4891B-98F0-4731-8804-E27545C6772C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CoordinatorWithMVP project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CoordinatorWithMVP</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>timeStartedRecording</key>
-			<real>661784409.17262197</real>
-			<key>timeStoppedRecording</key>
-			<real>661784574.33110094</real>
-			<key>title</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>uniqueIdentifier</key>
-			<string>F2C4891B-98F0-4731-8804-E27545C6772C</string>
-		</dict>
-		<key>FAA2FC8D-18DD-4501-BF99-6F52A2A34F43</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FAA2FC8D-18DD-4501-BF99-6F52A2A34F43.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CoordinatorWithMVP project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CoordinatorWithMVP</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>timeStartedRecording</key>
-			<real>661785481.864398</real>
-			<key>timeStoppedRecording</key>
-			<real>661786118.83681297</real>
-			<key>title</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>uniqueIdentifier</key>
-			<string>FAA2FC8D-18DD-4501-BF99-6F52A2A34F43</string>
-		</dict>
-		<key>FFE94CD3-1536-4801-9B0D-9B55C3ACFB9B</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FFE94CD3-1536-4801-9B0D-9B55C3ACFB9B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CoordinatorWithMVP project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CoordinatorWithMVP</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>timeStartedRecording</key>
-			<real>661784362.69547606</real>
-			<key>timeStoppedRecording</key>
-			<real>661784407.73580503</real>
-			<key>title</key>
-			<string>Run CoordinatorWithMVP</string>
-			<key>uniqueIdentifier</key>
-			<string>FFE94CD3-1536-4801-9B0D-9B55C3ACFB9B</string>
+			<string>E1E5D758-9B27-4D1E-BAF1-CA5B44CD5F7B</string>
 		</dict>
 	</dict>
 </dict>
