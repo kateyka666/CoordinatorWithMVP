@@ -11,4 +11,5 @@ protocol AccountCoordinator {
 	
 	init(navigationController: UINavigationController)
 	func updateToRegistrationScene()
+	func callToPhone(phoneCallURL: URL) 
 }

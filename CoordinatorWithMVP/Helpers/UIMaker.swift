@@ -10,9 +10,11 @@ import UIKit
 
 final class UIMaker {
 	
+	static let shared = UIMaker()
+	
 	private init() {}
 	
-	static func makeLabel(originY: CGFloat, text: String) -> UILabel {
+	func makeLabel(originY: CGFloat, text: String) -> UILabel {
 		let label = UILabel(frame: CGRect(x: UIScreen.main.bounds.minX + 25, y: originY, width: 200, height: 50))
 		label.text = text
 		label.textAlignment = .left
@@ -22,7 +24,7 @@ final class UIMaker {
 		return label
 	}
 	
-	static func makeTextField(originY: CGFloat, placeholder: String) -> UITextField {
+	func makeTextField(originY: CGFloat, placeholder: String) -> UITextField {
 		
 		let textField = UITextField(frame: CGRect(x: UIScreen.main.bounds.minX + 30, y: originY, width: 300, height: 50))
 		textField.backgroundColor = .white
@@ -36,13 +38,14 @@ final class UIMaker {
 		return textField
 	}
 	
-	static func makeButton(originY: CGFloat, title: String) -> UIButton {
-		let button = UIButton(frame: CGRect(x: UIScreen.main.bounds.midX - 25, y: originY, width: 100, height: 50))
+	func makeButton(originY: CGFloat, title: String, color: UIColor) -> UIButton {
+		let button = UIButton(frame: CGRect(x: UIScreen.main.bounds.minX + 10, y: originY, width: 150, height: 50))
 		button.setTitle(title, for: .normal)
-		button.backgroundColor = .white
+		button.backgroundColor = color
 		button.setTitleColor(.black, for: .normal)
 
 		return button
 	}
+	
 	
 }

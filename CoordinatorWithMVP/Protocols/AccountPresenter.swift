@@ -12,4 +12,5 @@ protocol AccountPresenter {
 	init(view: AccountView, coordinator: AccountCoordinator)
 	
 	func deletePerson()
+	func callPhone() 
 }

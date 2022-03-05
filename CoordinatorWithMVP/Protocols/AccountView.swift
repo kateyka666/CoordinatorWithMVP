@@ -10,4 +10,5 @@ import Foundation
 @objc protocol AccountView: AnyObject  {
 	func setupUI()
 	@objc func exitFromAccount()
+	@objc func callPhone() 
 }

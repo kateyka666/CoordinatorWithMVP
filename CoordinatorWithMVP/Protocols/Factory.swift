@@ -5,12 +5,12 @@
 //  Created by Екатерина Боровкова on 22.12.2021.
 //
 
-import Foundation
+import UIKit
 
 protocol Factory {
 	
-	static func makeRegistrationVC() -> RegistrationVC
+	static func makeRegistrationVC(navigationController: UINavigationController) -> RegistrationVC
 	
-	static func makeAccountVC() -> AccountVC
+	static func makeAccountVC(navigationController: UINavigationController) -> AccountVC
 	
 }

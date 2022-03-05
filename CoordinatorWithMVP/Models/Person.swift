@@ -12,11 +12,11 @@ class Person: Codable{
 	
 	
 	var name: String
-	var surname: String
+	var phone: String
 	
-	init(name: String, surname: String) {
+	init(name: String, phone: String) {
 		self.name = name
-		self.surname = surname
+		self.phone = phone
 	}
 	
 	

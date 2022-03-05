@@ -11,12 +11,12 @@ class RegistrationCoordinatorIMPL: RegistrationCoordinator {
 
 	private let navigationController: UINavigationController
 	
-	required init(navigationController: UINavigationController = UINavigationController()) {
+	required init(navigationController: UINavigationController) {
 		self.navigationController = navigationController
 	}
 	
 	func updateToAccountScene() {
-		let vc = FactoryIMPL.makeAccountVC()
-		navigationController.pushViewController(vc, animated: true)
+		_ = FactoryImpl.makeAccountVC(navigationController: navigationController)
+		navigationController.popViewController(animated: true)
 	}
 }

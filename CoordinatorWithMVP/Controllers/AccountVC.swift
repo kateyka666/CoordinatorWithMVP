@@ -9,20 +9,26 @@ import UIKit
 
 final class AccountVC : UIViewController{
 	
-	var presenter: AccountPresenterIMPL!
+	var presenter: AccountPresenterImpl?
 	
 	private lazy var nameLabel: UILabel = {
-		UIMaker.makeLabel(originY: 70, text: PersonStorage.namePerson() ?? "no name")
+		UIMaker.shared.makeLabel(originY: 70, text: PersonStorage.shared.namePerson() ?? "no name")
 	}()
-	private lazy var surnameLabel: UILabel = {
-		UIMaker.makeLabel(originY: 100, text: "New Account")
+	private lazy var phoneButton: UIButton = {
+		UIMaker.shared.makeButton(originY: 100, title: PersonStorage.shared.phonePerson() ?? "no phone", color: .clear)
 	}()
 	private lazy var signOutButton: UIButton = {
-		UIMaker.makeButton(originY: 150, title: "Sign out")
+		UIMaker.shared.makeButton(originY: 150, title: "Sign out", color: .white)
 	}()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		setupUI()
+	
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(true)
 		setupUI()
 	}
 	
@@ -33,13 +39,31 @@ extension AccountVC: AccountView {
 	func setupUI() {
 		view.backgroundColor = .cyan
 	
-		[nameLabel, surnameLabel, signOutButton].forEach { view.addSubview($0)}
+		[nameLabel, phoneButton, signOutButton].forEach { view.addSubview($0)}
 		
+		phoneButton.addTarget(self, action: #selector(callPhone), for: .touchUpInside)
 		signOutButton.addTarget(self, action: #selector(exitFromAccount), for: .touchUpInside)
 	}
 	
 	@objc func exitFromAccount() {
-		presenter.deletePerson()
+		presenter?.deletePerson()
 	}
 	
+	@objc func callPhone() {
+		presenter?.callPhone()
+	}
+}
+
+struct Test {
+	lazy var letter: String = {
+	let letter = String()
+		return letter
+	} ()
+}
+
+class Test1 {
+	lazy var letter: String = {
+		let letter = String()
+		return letter
+	} ()
 }

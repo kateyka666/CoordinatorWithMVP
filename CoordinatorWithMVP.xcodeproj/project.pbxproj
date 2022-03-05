@@ -19,16 +19,16 @@
 		7986A49E2772363300576B88 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A49D2772363300576B88 /* RegistrationView.swift */; };
 		7986A4A02772364000576B88 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A49F2772364000576B88 /* AccountView.swift */; };
 		7986A4A2277239A800576B88 /* PersonStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4A1277239A800576B88 /* PersonStorage.swift */; };
-		7986A4A427724BB600576B88 /* RegistrationPresenterIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4A327724BB600576B88 /* RegistrationPresenterIMPL.swift */; };
-		7986A4A627724BE800576B88 /* AccountPresenterIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4A527724BE800576B88 /* AccountPresenterIMPL.swift */; };
+		7986A4A427724BB600576B88 /* RegistrationPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4A327724BB600576B88 /* RegistrationPresenterImpl.swift */; };
+		7986A4A627724BE800576B88 /* AccountPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4A527724BE800576B88 /* AccountPresenterImpl.swift */; };
 		7986A4AA27732D5E00576B88 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4A927732D5E00576B88 /* Factory.swift */; };
-		7986A4AD27732E2700576B88 /* FactoryIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4AC27732E2700576B88 /* FactoryIMPL.swift */; };
+		7986A4AD27732E2700576B88 /* FactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4AC27732E2700576B88 /* FactoryImpl.swift */; };
 		7986A4AF2773653000576B88 /* UIMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4AE2773653000576B88 /* UIMaker.swift */; };
 		7986A4B1277391FA00576B88 /* RegistrationCoordinatorIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4B0277391FA00576B88 /* RegistrationCoordinatorIMPL.swift */; };
 		7986A4B32773927800576B88 /* AccountCoordinatorIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4B22773927800576B88 /* AccountCoordinatorIMPL.swift */; };
 		7986A4B5277392D200576B88 /* RegistrationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4B4277392D200576B88 /* RegistrationCoordinator.swift */; };
 		7986A4B7277393B800576B88 /* AccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4B6277393B800576B88 /* AccountCoordinator.swift */; };
-		79F60B2C2771D36700AEAB33 /* CoordinatorIMPL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F60B2B2771D36700AEAB33 /* CoordinatorIMPL.swift */; };
+		79F60B2C2771D36700AEAB33 /* CoordinatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F60B2B2771D36700AEAB33 /* CoordinatorImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,16 +46,16 @@
 		7986A49D2772363300576B88 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		7986A49F2772364000576B88 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		7986A4A1277239A800576B88 /* PersonStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonStorage.swift; sourceTree = "<group>"; };
-		7986A4A327724BB600576B88 /* RegistrationPresenterIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenterIMPL.swift; sourceTree = "<group>"; };
-		7986A4A527724BE800576B88 /* AccountPresenterIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPresenterIMPL.swift; sourceTree = "<group>"; };
+		7986A4A327724BB600576B88 /* RegistrationPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenterImpl.swift; sourceTree = "<group>"; };
+		7986A4A527724BE800576B88 /* AccountPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPresenterImpl.swift; sourceTree = "<group>"; };
 		7986A4A927732D5E00576B88 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
-		7986A4AC27732E2700576B88 /* FactoryIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryIMPL.swift; sourceTree = "<group>"; };
+		7986A4AC27732E2700576B88 /* FactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryImpl.swift; sourceTree = "<group>"; };
 		7986A4AE2773653000576B88 /* UIMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMaker.swift; sourceTree = "<group>"; };
 		7986A4B0277391FA00576B88 /* RegistrationCoordinatorIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCoordinatorIMPL.swift; sourceTree = "<group>"; };
 		7986A4B22773927800576B88 /* AccountCoordinatorIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCoordinatorIMPL.swift; sourceTree = "<group>"; };
 		7986A4B4277392D200576B88 /* RegistrationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCoordinator.swift; sourceTree = "<group>"; };
 		7986A4B6277393B800576B88 /* AccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCoordinator.swift; sourceTree = "<group>"; };
-		79F60B2B2771D36700AEAB33 /* CoordinatorIMPL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorIMPL.swift; sourceTree = "<group>"; };
+		79F60B2B2771D36700AEAB33 /* CoordinatorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 				79F60B2A2771D31D00AEAB33 /* Cooordinators */,
 				7986A4912772327300576B88 /* Models */,
 				7986A4A827724C4800576B88 /* Supporting Files */,
-				7986A4A727724C2C00576B88 /* Resources */,
+				7986A4A727724C2C00576B88 /* Resources1 */,
 			);
 			path = CoordinatorWithMVP;
 			sourceTree = "<group>";
@@ -145,18 +145,18 @@
 		7986A4982772341500576B88 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				7986A4A327724BB600576B88 /* RegistrationPresenterIMPL.swift */,
-				7986A4A527724BE800576B88 /* AccountPresenterIMPL.swift */,
+				7986A4A327724BB600576B88 /* RegistrationPresenterImpl.swift */,
+				7986A4A527724BE800576B88 /* AccountPresenterImpl.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
 		};
-		7986A4A727724C2C00576B88 /* Resources */ = {
+		7986A4A727724C2C00576B88 /* Resources1 */ = {
 			isa = PBXGroup;
 			children = (
 				792C46C227708F8200959349 /* Assets.xcassets */,
 			);
-			path = Resources;
+			path = Resources1;
 			sourceTree = "<group>";
 		};
 		7986A4A827724C4800576B88 /* Supporting Files */ = {
@@ -172,7 +172,7 @@
 		7986A4AB27732E0400576B88 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				7986A4AC27732E2700576B88 /* FactoryIMPL.swift */,
+				7986A4AC27732E2700576B88 /* FactoryImpl.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 		79F60B2A2771D31D00AEAB33 /* Cooordinators */ = {
 			isa = PBXGroup;
 			children = (
-				79F60B2B2771D36700AEAB33 /* CoordinatorIMPL.swift */,
+				79F60B2B2771D36700AEAB33 /* CoordinatorImpl.swift */,
 				7986A4B0277391FA00576B88 /* RegistrationCoordinatorIMPL.swift */,
 				7986A4B22773927800576B88 /* AccountCoordinatorIMPL.swift */,
 			);
@@ -257,21 +257,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7986A4A627724BE800576B88 /* AccountPresenterIMPL.swift in Sources */,
+				7986A4A627724BE800576B88 /* AccountPresenterImpl.swift in Sources */,
 				7986A49A2772346200576B88 /* RegistrationPresenter.swift in Sources */,
 				7986A4932772328A00576B88 /* Person.swift in Sources */,
 				792C46CE27708FAC00959349 /* Coordinator.swift in Sources */,
 				7986A4B7277393B800576B88 /* AccountCoordinator.swift in Sources */,
 				7986A497277233E900576B88 /* AccountVC.swift in Sources */,
 				7986A4A02772364000576B88 /* AccountView.swift in Sources */,
-				7986A4AD27732E2700576B88 /* FactoryIMPL.swift in Sources */,
+				7986A4AD27732E2700576B88 /* FactoryImpl.swift in Sources */,
 				7986A4AA27732D5E00576B88 /* Factory.swift in Sources */,
 				7986A4AF2773653000576B88 /* UIMaker.swift in Sources */,
 				7986A4B1277391FA00576B88 /* RegistrationCoordinatorIMPL.swift in Sources */,
 				792C46BE27708F8100959349 /* RegistrationVC.swift in Sources */,
 				7986A4A2277239A800576B88 /* PersonStorage.swift in Sources */,
-				7986A4A427724BB600576B88 /* RegistrationPresenterIMPL.swift in Sources */,
-				79F60B2C2771D36700AEAB33 /* CoordinatorIMPL.swift in Sources */,
+				7986A4A427724BB600576B88 /* RegistrationPresenterImpl.swift in Sources */,
+				79F60B2C2771D36700AEAB33 /* CoordinatorImpl.swift in Sources */,
 				7986A4B5277392D200576B88 /* RegistrationCoordinator.swift in Sources */,
 				7986A4B32773927800576B88 /* AccountCoordinatorIMPL.swift in Sources */,
 				7986A49C2772347300576B88 /* AccountPresenter.swift in Sources */,

@@ -9,28 +9,30 @@ import Foundation
 
 class PersonStorage {
 	
+	static let shared = PersonStorage()
+	
 	private init() {}
 	
-	static func addNewPerson(person: Person) {
-		let data = try? JSONEncoder().encode(person)
-		guard let data = data else { return }
-		UserDefaults.standard.set(data, forKey: "person")
+	func addNewPerson(person: Person) {
+		UserDefaults.standard.set(person.name, forKey: "name")
+		UserDefaults.standard.set(person.phone, forKey: "phone")
+		
 	}
 	
-	static func removePerson() {
-		UserDefaults.standard.removeObject(forKey: "person")
+	func removePerson() {
+		UserDefaults.standard.removeObject(forKey: "name")
+		UserDefaults.standard.removeObject(forKey: "phone")
 	}
 	
-	static func namePerson() -> String? {
-		guard let decoded = UserDefaults.standard.object(forKey: "person") as? Data else { return nil }
-		guard let person = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(decoded) as? Person else { return nil }
-		return person.name
+    func namePerson() -> String? {
+		guard let name = UserDefaults.standard.value(forKey: "name") as? String else { return nil }
+		return name
 	}
 	
-	static func surnamePerson() -> String? {
-		guard let decoded = UserDefaults.standard.object(forKey: "person") as? Data else { return nil }
-		guard let person = try? JSONDecoder().decode(Person.self, from: decoded) else { return nil }
-		return person.surname
+	 func phonePerson() -> String? {
+		guard let phone = UserDefaults.standard.value(forKey: "phone") as? String else { return nil }
+		return phone
 	}
 	
 }
+
